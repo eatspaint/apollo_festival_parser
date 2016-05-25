@@ -34,6 +34,8 @@ class String
   end
 end
 
+# full_regex = /([^\x00-\x7F\u2022\u2023\u25E6\u2043\u2219\,\n]|[0-9A-zÀ-ÿ\∆\Λ\&\,\.\!\?\-\+\(\)\$\'\"\”\“\’\®]+(\ *[0-9A-zÀ-ÿ\∆\Λ\&\,\.\!\?\-\+\(\)\$\'\"\”\“\’\®]+)*)+/
+
 # load up example files and parse
 # lineups = Dir[File.dirname(__FILE__) + '/lineups/*'].map {|file| File.read(file).process }
 # binding.pry
